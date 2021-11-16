@@ -28,3 +28,4 @@ jobs:
           echo "event: ${{ github.event }}"
           echo "event name: ${{ github.event_name }}"
           echo "event path: ${{ github.event_path }}"
+          echo "event type: #{{ github.event.type }}"
